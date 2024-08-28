@@ -46,12 +46,25 @@
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
 
-        color: #fff;
+        color: hsl(0, 100%, 100%);
     }
 
     .custom_nav-container .nav_search-btn {
         background-image: url(../images/search-icon-mobile.png);
         background-position: center;
+    }
+    .row{
+        flex-direction: column;
+    }
+
+    .col-4 .col-8{
+        text-align: center;
+    }
+    .col-4{
+    width: 40%;
+    }
+    .col-8{
+    max-width: 100%;
     }
 }
 
